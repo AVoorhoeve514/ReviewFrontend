@@ -8,13 +8,17 @@ Om mijn CRUD goed te laten runnen heeft u ook de oude backend nodig. Hier staan 
 Nog een dingetje dat ik tegen ben gekomen is als je op de pagina zit en je inspect hem zodat je de mobile view krijgt, krijg je bij sommige dimensions niet de hele pagina te zien. Ik heb de pagina altijd op de Iphone SE afmetingen bekeken.
 
 
-## Dit is de figma prototype die ik gemaakt heb voordat ik aan deze pagina begon.
+## Prototype
+
+Dit is het figma prototype dat ik voor het beginnen gemaakt heb:
 ![Untitled](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/56b420cd-5ead-4e33-b49d-82c5fb798e4e)
 ![Untitled 2](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/4e9bf204-5f7d-40cf-b02d-982f525c03e8)
 ![Untitled 1](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/322642b1-64d5-4c7d-9c81-877d74aca0db)
+
 Ik vind dat het best redelijk hetzelfde is gebleven, het enige verschil is dat de reviews op een aparte pagina komen te staan zodat het wat overzichtelijker is. Ook is het duidelijker dat de review over de kok gaat (omdat dat er dit keer bij staat).
 
 ![image](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/ce1759cf-8e34-470c-81e3-d4831692624e)
+
 Dit is een screenshot van wat er nu op de receptenpagina staat. De tekst geeft duidelijker aan waar de review voor is en wat je op de volgende pagina kunt doen.
 
 
