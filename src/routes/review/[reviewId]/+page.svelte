@@ -113,7 +113,7 @@
       <h1 class="text-2xl font-bold mb-6">Schrijf een review over deze kok!</h1>
       <form class="mb-4" on:submit|preventDefault={postData}>
         <label class="block mb-4">
-          Naam van de Review:
+          Naam van de review:
           <input
             type="text"
             class="mt-1 block w-full rounded-md border-black"
@@ -124,12 +124,12 @@
         </label>
         
         <label class="block mb-4">
-          Review Omschrijving:
+          Review omschrijving:
           <textarea class="mt-1 block w-full border-black rounded-md h-16" bind:value={$reviewFormData.description} required placeholder="Typ hier de beschrijving van je review..."></textarea>
         </label>
         
         <label class="block mb-4">
-          Review Score:
+          Review score:
           <select class="mt-1 block w-full border-black rounded-md" bind:value={$reviewFormData.score} required>
             <!-- Add options for selecting a score -->
             <option value="1">1</option>
@@ -152,8 +152,8 @@
       <!-- Display reviews based on reviewId -->
       <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-md border-black">
         <p class="text-2xl font-bold">{Review.name}</p>
-        <p class="mb-2">Review from: {users[currentUser].name}</p>
-        <p class="mb-2">Omschrijving: {Review.description}</p>
+        <p class="mb-2 font-bold">Review from: {users[currentUser].name}</p>
+        <p class="mb-2">Omschrijving:<br> {Review.description}</p>
         <p class="mb-6">Score: {Review.score}</p>
         <button on:click={() => deleteReview(Review.id)} class="bg-red-500 text-white py-2 px-4 rounded-md">Delete Review</button>
       </div>
