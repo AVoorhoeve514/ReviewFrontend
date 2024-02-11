@@ -114,12 +114,20 @@
       <form class="mb-4" on:submit|preventDefault={postData}>
         <label class="block mb-4">
           Naam van de Review:
-          <input type="text" class="mt-1 block w-full rounded-md border-black" bind:value={$reviewFormData.name} required />
+          <input
+            type="text"
+            class="mt-1 block w-full rounded-md border-black"
+            bind:value={$reviewFormData.name}
+            required
+            placeholder="Typ hier de naam van je review..."
+          />
         </label>
+        
         <label class="block mb-4">
           Review Omschrijving:
-          <input type="text" class="mt-1 block w-full border-black rounded-md" bind:value={$reviewFormData.description} required />
+          <textarea class="mt-1 block w-full border-black rounded-md h-16" bind:value={$reviewFormData.description} required placeholder="Typ hier de beschrijving van je review..."></textarea>
         </label>
+        
         <label class="block mb-4">
           Review Score:
           <select class="mt-1 block w-full border-black rounded-md" bind:value={$reviewFormData.score} required>
