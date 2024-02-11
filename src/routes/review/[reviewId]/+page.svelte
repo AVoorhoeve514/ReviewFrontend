@@ -122,7 +122,19 @@
         </label>
         <label class="block mb-4">
           Review Score:
-          <input type="text" class="mt-1 block w-full border-black rounded-md" bind:value={$reviewFormData.score} required />
+          <select class="mt-1 block w-full border-black rounded-md" bind:value={$reviewFormData.score} required>
+            <!-- Add options for selecting a score -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
         </label>
         <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded-md">Post Review</button>
       </form>
