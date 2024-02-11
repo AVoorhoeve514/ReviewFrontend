@@ -28,7 +28,7 @@ Dit is een screenshot van wat er nu op de receptenpagina staat. De tekst geeft d
 
 ## Testing
 
-Ik heb wat mensen laten testen en zij hebben mij een aantal verschillende feedbackpunten gegeven. Tijdens de testing was de pagina zo goed als klaar, alleen moest er nog wat polish overheen. Een feedbackpunt was dat de reviews allemaal aan elkaar vast zaten en er geen ruimte tussen zat, wat er niet echt mooi uitzag. Dit heb ik meteen opgelost door een "<br>" tag onder de "<div>" van de review. Nog een feedbackpunt dat ik op dezelfde manier heb opgelost is dat de navigatiebalk over de onderste review stond en dus wat informatie blokkeerde. Ook dat heb ik met een paar "<br>" tags opgelost. Een laatste feedback punt was dat het invullen van de score eerst gedaan werd door een nummer in te typen, wat minder handig was dan de score gewoon kunnen selecteren. Nu kan je de score gewoon aanklikken.
+Ik heb wat mensen laten testen en zij hebben mij een aantal verschillende feedbackpunten gegeven. Tijdens de testing was de pagina zo goed als klaar, alleen moest er nog wat polish overheen. Een feedbackpunt was dat de reviews allemaal aan elkaar vast zaten en er geen ruimte tussen zat, wat er niet echt mooi uitzag. Dit heb ik meteen opgelost door een br tag onder de div van de review. Nog een feedbackpunt dat ik op dezelfde manier heb opgelost is dat de navigatiebalk over de onderste review stond en dus wat informatie blokkeerde. Ook dat heb ik met een paar br tags opgelost. Een laatste feedback punt was dat het invullen van de score eerst gedaan werd door een nummer in te typen, wat minder handig was dan de score gewoon kunnen selecteren. Nu kan je de score gewoon aanklikken.
 
 ## ERD (Entity Relationship Diagram)
 
