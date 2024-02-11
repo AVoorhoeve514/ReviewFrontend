@@ -30,3 +30,5 @@ Ik heb wat mensen laten testen en zij hebben mij een aantal verschillende feedba
 ## ERD (Entity Relationship Diagram)
 
 ![image](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/d16821a2-4c08-4678-8ad5-f899716ba07c)
+
+In deze ERD pakt elke table die creator_id heeft de name van de user. Op mijn pagina kunnen recipes nog niet gepost worden (dat doet iemand anders als opdracht) dus ik heb dat niet verwerkt. De primary keys zijn ReviewId, userId en recipeId (deze heten in hun eigen tables gewoon id, maar het is wat duidelijker zo). De foreign keys zijn creator_id, name en creator_id. De reden dat creator_id zovaak gebruikt word is om de naam van de ingelogde user te kunnen laten zien. Deze word ook meegenomen in mijn post, namelijk dat wanneer je een review post de naam van jouw ingelogde account zichtbaar word. Ook al heb ik de recipes table niet per se nodig voor het posten van reviews heb ik deze er toch wel in gezet omdat de reviewId en recipeId hetzelfde moeten zijn. Anders zou je niet bij de juiste reviews kunnen komen. 
