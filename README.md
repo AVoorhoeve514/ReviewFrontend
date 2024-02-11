@@ -11,6 +11,7 @@ Nog een dingetje dat ik tegen ben gekomen is als je op de pagina zit en je inspe
 ## Prototype
 
 Dit is het figma prototype dat ik voor het beginnen gemaakt heb:
+
 ![Untitled](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/56b420cd-5ead-4e33-b49d-82c5fb798e4e)
 ![Untitled 2](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/4e9bf204-5f7d-40cf-b02d-982f525c03e8)
 ![Untitled 1](https://github.com/AVoorhoeve514/ReviewFrontend/assets/123942665/322642b1-64d5-4c7d-9c81-877d74aca0db)
